@@ -9,8 +9,8 @@ Rutas padres e hijas, app-routing.ts y rutas hijas dentro de cada carpeta de com
     auth/auth.routing.ts
     pages/pages.routing.ts
 
-Módulos independientes dentro de cad carpeta se crea su modulo para hacer las importaciones
-al app.module.ts de todos sus cómponentes dependientes o que están dentro de la carpeta.
+Módulos independientes dentro de cada carpeta, se crea su modulo para hacer las importaciones
+al app.module.ts de todos sus componentes dependientes o que están dentro de la carpeta.
     auth/auth.module.ts  --  components/components.module.ts  --  nopagefound/nopagefound.component.ts
     pages/pages.module.ts  --  shared/shared.module.ts
 
@@ -19,6 +19,8 @@ echo con pages/progress/progress.component y components/incrementador/incrementa
 
 Librería de gráficas
 https://valor-software.com/ng2-charts/#/GeneralInfo
+En pages/grafica1 están los ejemplos de gráficas tipo dona
 
+El index.html carga dinámicamente el tema, esto está en pages/account-settings
 
 ```
