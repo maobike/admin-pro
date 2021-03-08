@@ -14,7 +14,4 @@ export class Grafica1Component{
         [350, 450, 200],
     ] 
 
-    public colors1: string[] = [ '#6857E6', '#009FEE', '#F02059' ];
-    public colors2: string[] = [ '#ff57E6', '#12CCDD', '#FFA012' ];
-
 }
